@@ -1,0 +1,23 @@
+{
+  "name": "WiK6-server",
+  "version": "0.0.0",
+  "description": "Backend nodeJS application of WiK6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WiK6",
+    "server",
+    "wiki"
+  ],
+  "author": "mlagneaux",
+  "license": "GPL v3",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "elasticsearch": "^3.0.2",
+    "express": "^4.10.6",
+    "path": "^0.4.9",
+    "serve-favicon": "^2.2.0"
+  }
+}
