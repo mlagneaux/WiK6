@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="WiK6App">
+	<head>
+		<meta charset="utf-8">
+		<title>WiK6</title>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="js/controllers.js"></script>
+	</head>
+	<body ng-controller="DocListCtrl">
+		<ul>
+			<li ng-repeat="doc in docs">
+				<p>{{doc._source.content}} (<span ng-repeat="tag in doc._source.tags">{{tag}}<label ng-if="!$last">, </label></span>)</p>
+				<div ng-repeat="link in doc._source.links">
+					<a href="{{link}}">{{link}}</a>
+				</div>
+			</li>
+		</ul>
+
+	</body>
+</html>

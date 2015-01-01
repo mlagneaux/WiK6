@@ -1,0 +1,87 @@
+{
+    "docs": [
+        {
+            "_index": "wik6",
+            "_type": "doc",
+            "_id": "AUqmydc7Jsv4MfRFINyA",
+            "_score": 1,
+            "_source": {
+                "content": "Contenu du 1er article",
+                "links": [
+                    "http://stackoverflow.com/questions/21982785/npm-init-not-creating-package-json-on-my-mac",
+                    "http://wil.boayue.com/blog/2013/06/14/using-npm-behind-a-proxy/"
+                ],
+                "tags": [
+                    "npm",
+                    "proxy"
+                ]
+            }
+        },
+        {
+            "_index": "wik6",
+            "_type": "doc",
+            "_id": "AUqmyoMwJsv4MfRFINyB",
+            "_score": 1,
+            "_source": {
+                "content": "Contenu du 2er article",
+                "links": [
+                    "http://www.google.fr"
+                ],
+                "tags": [
+                    "google",
+                    "npm"
+                ]
+            }
+        },
+        {
+            "_index": "wik6",
+            "_type": "doc",
+            "_id": "AUqhiEXtHm2Hoim198Dv",
+            "_score": 1,
+            "_source": {
+                "content": "Contenu du 1er article",
+                "links": [
+                    "http://stackoverflow.com/questions/21982785/npm-init-not-creating-package-json-on-my-mac",
+                    "http://wil.boayue.com/blog/2013/06/14/using-npm-behind-a-proxy/"
+                ],
+                "tags": [
+                    "npm",
+                    "proxy"
+                ]
+            }
+        },
+        {
+            "_index": "wik6",
+            "_type": "doc",
+            "_id": "AUqmzAIMJsv4MfRFINyC",
+            "_score": 1,
+            "_source": {
+                "content": "Contenu du 3e article",
+                "links": [
+                    "http://www.lequipe.fr"
+                ],
+                "tags": [
+                    "lequipe",
+                    "npm"
+                ]
+            }
+        },
+        {
+            "_index": "wik6",
+            "_type": "doc",
+            "_id": "AUqhkFWrHm2Hoim198Dw",
+            "_score": 1,
+            "_source": {
+                "content": "Contenu du 2er article",
+                "links": [
+                    "http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/"
+                ],
+                "tags": [
+                    "npm",
+                    "express",
+                    "mongodb"
+                ]
+            }
+        }
+    ]
+}

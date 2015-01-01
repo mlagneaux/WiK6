@@ -1,0 +1,29 @@
+{
+  "name": "WiK6-client",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Frontend nodeJS application of WiK6 based on AngularJS",
+  "author": "mlagneaux",
+  "license": "GPL v3",
+  "homepage": "https://github.com/mlagneaux/WiK6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlagneaux/WiK6"
+  },
+  "bugs": {
+    "url": "https://github.com/mlagneaux/WiK6/issues"
+  },
+  "keywords": [
+    "WiK6",
+    "client",
+    "wiki"
+  ],
+  "dependencies": {
+    "bower": "^1.3.12",
+    "http-server": "^0.7.4"
+  },
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

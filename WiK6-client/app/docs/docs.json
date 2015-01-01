@@ -1,0 +1,57 @@
+{
+    "docs": [
+        {
+                "content": "Contenu du 1er article",
+                "links": [
+                    "http://stackoverflow.com/questions/21982785/npm-init-not-creating-package-json-on-my-mac",
+                    "http://wil.boayue.com/blog/2013/06/14/using-npm-behind-a-proxy/"
+                ],
+                "tags": [
+                    "npm",
+                    "proxy"
+                ]
+        },
+        {
+                "content": "Contenu du 2er article",
+                "links": [
+                    "http://www.google.fr"
+                ],
+                "tags": [
+                    "google",
+                    "npm"
+                ]
+        },
+        {
+                "content": "Contenu du 1er article",
+                "links": [
+                    "http://stackoverflow.com/questions/21982785/npm-init-not-creating-package-json-on-my-mac",
+                    "http://wil.boayue.com/blog/2013/06/14/using-npm-behind-a-proxy/"
+                ],
+                "tags": [
+                    "npm",
+                    "proxy"
+                ]
+        },
+        {
+                "content": "Contenu du 3e article",
+                "links": [
+                    "http://www.lequipe.fr"
+                ],
+                "tags": [
+                    "lequipe",
+                    "npm"
+                ]
+        },
+        {
+                "content": "Contenu du 2er article",
+                "links": [
+                    "http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/"
+                ],
+                "tags": [
+                    "npm",
+                    "express",
+                    "mongodb"
+                ]
+        }
+    ]
+}
