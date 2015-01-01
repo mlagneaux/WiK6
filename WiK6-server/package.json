@@ -1,23 +1,33 @@
 {
   "name": "WiK6-server",
   "version": "0.0.0",
+  "private": true,
   "description": "Backend nodeJS application of WiK6",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "mlagneaux",
+  "license": "GPL v3",
+  "homepage": "https://github.com/mlagneaux/WiK6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlagneaux/WiK6"
+  },
+  "bugs": {
+    "url": "https://github.com/mlagneaux/WiK6/issues"
   },
   "keywords": [
     "WiK6",
     "server",
     "wiki"
   ],
-  "author": "mlagneaux",
-  "license": "GPL v3",
   "dependencies": {
+    "cors": "^2.5.2",
     "debug": "^2.1.1",
     "elasticsearch": "^3.0.2",
     "express": "^4.10.6",
     "path": "^0.4.9",
     "serve-favicon": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
