@@ -1,6 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
+//router.use(function(req, res, next) {  
+//    res.header('Access-Control-Allow-Origin', 'http://localhost:8000');
+//    next();
+//});
+
 var model = require('../models/model');
 var docModel = model.docModel;
 
